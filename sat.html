@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+</head>
+<style>
+    .cut {
+        text-decoration: line-through;
+    }
+
+
+    .mark {
+        background-color: blue;
+    }
+
+    .main_container {
+             
+        
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin: 50px;
+    }
+
+
+
+    .navbar {
+     
+        border: 2px solid;
+        background-color: black;
+        color: whitesmoke;
+        margin-top: -9px;
+        margin-left: -10px;
+        margin-right: -8px;
+    }
+
+    .navbar li {
+        display: inline;
+        padding: 30px;
+        margin: 3px 3px;
+    }
+
+    .navbar li a {
+        padding: 3px 3px;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    .srch {
+        float: right;
+        padding: 3px 70px;
+
+    }
+   
+/* 
+    .foo {
+        display: block;
+    } */
+
+    .foo{
+        background-color: black;
+        color: white;
+        height: 5vh;
+        text-align: center;
+         display: flex;
+         justify-content: center;
+    }
+    .foo p a{ 
+        text-decoration: none;
+        color: white;
+    }
+</style>
+
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <div class="srch">
+                    <input style="border-radius: 5px;" type="text" name="search" id="search"
+                        placeholder="search the website">
+                </div>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <div class="main_container">
+        <div>
+            <img src="https://m.media-amazon.com/images/I/71r54QzNUrS._AC_UL480_FMwebp_QL65_.jpg" alt="Cinque Terre"
+                width="300" height="300">
+            <p class="op"> The Price <span class="cut">&#8377 1000 </span><b>&#8377 600</b></p>
+
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/71gT800qyAL._AC_UL480_FMwebp_QL65_.jpg" alt="Cinque Terre"
+                width="300" height="300">
+            <p class="op"> The Price <span class="cut">&#8377 8000 </span><b>&#8377 6000</b></p>
+
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/81tFM7RNHTL._AC_UL480_FMwebp_QL65_.jpg" alt="Cinque Terre"
+                width="300" height="300">
+            <p class="op"> The Price <span class="cut">&#8377 9000 </span><b>&#8377 6000</b></p>
+
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61wZJ9SJbzS._AC_UL480_FMwebp_QL65_.jpg" alt="Cinque Terre"
+                width="300" height="300">
+            <p class="op"> The Price <span class="cut">&#8377 1000 </span><b>&#8377 600</b></p>
+
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61NBIsbV11L._AC_UL480_FMwebp_QL65_.jpg" alt="Cinque Terre"
+                width="300" height="300">
+            <p class="op"> The Price <span class="cut">&#8377 1000 </span><b>&#8377 600</b></p>
+
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/71SBNjMGcWL._AC_UL480_FMwebp_QL65_.jpg" alt="Cinque Terre"
+                width="300" height="300">
+            <p class="op"> The Price <span class="cut">&#8377 7000 </span><b>&#8377 2000</b></p>
+
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/71x6NQIZ0DL._AC_UL480_FMwebp_QL65_.jpg" alt="Cinque Terre"
+                width="300" height="300">
+            <p class="op"> The Price <span class="cut">&#8377 1000 </span><b>&#8377 600</b></p>
+
+        </div>
+        <div class="con">
+            <img src="https://m.media-amazon.com/images/I/71hQTcT1u2L._AC_UL480_FMwebp_QL65_.jpg" alt="Cinque Terre"
+                width="300" height="300">
+            <p class="op"> The Price <span class="cut">&#8377 1000 </span><b>&#8377 600</b></p>
+
+        </div>
+    </div>
+
+    <div class="foo">
+        <p> Designed by  &copy;<a href="mailto:shubhanshupaliwal@gmail.com"> pradeep bhaiya</a></p>
+    </div>
+
+</body>
+
+</html>
